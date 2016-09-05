@@ -54,7 +54,22 @@ func test(){
 	fmt.Println(s)
 
 	c := []byte(s)
-	c[0] = 'c'
+	c[0]= 'c'
+	s_s := string(c)
+	fmt.Println(s_s)
 
+	m := "hello, "
+	n := "world"
+	l := m+n
+	fmt.Println(l)
+
+	s = "d"+ s[1:]//字符串虽然不能修改， 但是可以进行切片操作
+	fmt.Printf("%s\n", s)
+
+
+	//声明多行字符串
+	mm := `duo hang
+	zifuchuan`
+	fmt.Println(mm)
 
 }
