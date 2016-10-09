@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+
+import  ("fmt"
+	)
 
 func max(a, b int) int {
 	if a > b {
@@ -30,6 +32,7 @@ func main(){
 	x2 := add2(&x)
 	fmt.Printf("x : %d", x)
 	fmt.Printf("x2 : %d", x2)
+
 }
 
 func SumAndMultiply(A, B int)(int, int){
